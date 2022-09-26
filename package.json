@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "pretest": "rm -rf node_modules/ package-lock.json .scannerwork/ ~/.sonar/ && npm i",
+    "clean": "rm -rf node_modules/ package-lock.json .scannerwork/ ~/.sonar/ && npm i",
     "test": "node sonar.js"
   },
   "repository": {
