@@ -1,0 +1,17 @@
+dist: trusty
+sudo: required
+
+node_js:
+  - 16
+
+install:
+  - npm install
+
+script:
+  - npm test
+
+cache:
+  directories:
+    - $HOME/.npm
+    - $HOME/.sonar/cache
+    - $HOME/.sonar/native-sonar-scanner
