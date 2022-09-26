@@ -1,0 +1,26 @@
+{
+  "name": "sonar-scanner-tryout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node sonar.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabssnake/sonar-scanner-tryout.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabssnake/sonar-scanner-tryout/issues"
+  },
+  "homepage": "https://github.com/gabssnake/sonar-scanner-tryout#readme",
+  "devDependencies": {
+    "sonarqube-scanner": "^2.8.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2"
+  }
+}
