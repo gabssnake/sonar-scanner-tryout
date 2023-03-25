@@ -22,6 +22,7 @@
     "sonarqube-scanner": "^2.8.2"
   },
   "dependencies": {
-    "dotenv": "^16.0.2"
+    "dotenv": "^16.0.2",
+    "debug": "*"
   }
 }
